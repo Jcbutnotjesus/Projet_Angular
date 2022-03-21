@@ -1,1 +1,8 @@
-<p>jan-cornelis works!</p>
+<p>{{ prenom | uppercase }} works!</p>
+<input [(ngModel)]="prenom" />
+<ul *ngFor="let toto of totos">
+  <li>
+    {{ toto }}
+  </li>
+</ul>
+<p>{{ bonbon }}</p>
